@@ -5,39 +5,39 @@ python3 Nmap.py
 
 if you find this "Add custom Nmap options (space-separated):" in the custom menu in Nmap, just fill in with this prompt
 
-Prompt yang digunakan untuk scanning Nmap selain script ini antara lain:
+Prompts used for Nmap scanning besides this script include:
 
-1. **Pemindaian port dan layanan**:
-   - `-p-`: Memindai semua port (default).
-   - `-p 80,443`: Memindai port tertentu.
-   - `-sS`: Pemindaian TCP SYN (stealth).
-   - `-sU`: Pemindaian UDP.
-   - `-sV`: Deteksi versi layanan.
-   - `-sC`: Jalankan skrip default Nmap.
+1. **Port and service scanning**:
+   - `-p-`: Scan all ports (default).
+   - `-p 80,443`: Scan specific ports.
+   - `-sS`: TCP SYN scan (stealth).
+   - `-sU`: UDP scan.
+   - `-sV`: Service version detection.
+   - `-sC`: Run default Nmap scripts.
 
-2. **Deteksi sistem operasi**:
-   - `-O`: Deteksi OS.
-   - `--osscan-guess`: Tebak OS jika tidak pasti.
+2. **Operating system detection**:
+   - `-O`: OS detection.
+   - `--osscan-guess`: Guess OS if uncertain.
 
-3. **Pengaturan waktu eksekusi**:
-   - `-T0-T5`: Atur kecepatan eksekusi (paranoid-histeris).
-   - `-T3`: Waktu normal.
+3. **Execution timing settings**:
+   - `-T0-T5`: Set execution speed (paranoid-insane).
+   - `-T3`: Normal timing.
 
-4. **Skrip Nmap tambahan**:
-   - `--script=exploit`: Jalankan skrip eksploitasi.
-   - `--script=discovery`: Jalankan skrip penemuan.
-   - `--script=vuln`: Jalankan skrip deteksi kerentanan.
+4. **Additional Nmap scripts**:
+   - `--script=exploit`: Run exploitation scripts.
+   - `--script=discovery`: Run discovery scripts.
+   - `--script=vuln`: Run vulnerability detection scripts.
 
-5. **Output dan log**:
-   - `-oX`: Simpan hasil dalam XML.
-   - `-oN`: Simpan hasil dalam teks biasa.
-   - `-oG`: Simpan hasil dalam format greppable.
+5. **Output and logs**:
+   - `-oX`: Save results in XML.
+   - `-oN`: Save results in plain text.
+   - `-oG`: Save results in greppable format.
 
-6. **Lain-lain**:
-   - `-Pn`: Nonaktifkan ping host.
-   - `-f`: Fragmentasi paket.
+6. **Miscellaneous**:
+   - `-Pn`: Disable host ping.
+   - `-f`: Packet fragmentation.
    - `-v`: Verbose mode.
-   - `-n`: Nonaktifkan resolusi DNS.
+   - `-n`: Disable DNS resolution.
 
 example of use:
 Add custom Nmap options (space-separated): -Pn
