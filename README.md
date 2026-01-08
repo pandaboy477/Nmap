@@ -5,8 +5,6 @@ python3 Nmap.py
 
 if you find this "Add custom Nmap options (space-separated):" in the custom menu in Nmap, just fill in with this prompt
 
-Prompts used for Nmap scanning besides this script include:
-
 1. **Port and service scanning**:
    - `-p-`: Scan all ports (default).
    - `-p 80,443`: Scan specific ports.
