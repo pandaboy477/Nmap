@@ -37,5 +37,6 @@ if you find this "Add custom Nmap options (space-separated):" in the custom menu
    - `-v`: Verbose mode.
    - `-n`: Disable DNS resolution.
 
-example of use:
-Add custom Nmap options (space-separated): -Pn
+example of use: Add custom Nmap options (space-separated): -Pn example.com/your IP
+
+you can use the prompt as well as example: example of use: Add custom Nmap options (space-separated): -Pn --script=vuln -Pn example.com/your IP
